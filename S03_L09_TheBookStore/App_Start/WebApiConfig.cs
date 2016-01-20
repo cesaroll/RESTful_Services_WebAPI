@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using TheBookStore.DataTransferObjects;
 using TheBookStore.Infrastructure;
 
 namespace S03_L09_TheBookStore
@@ -20,6 +21,8 @@ namespace S03_L09_TheBookStore
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Filters.Add(new EnforceHttpsAttribute());
 
             config.MessageHandlers.Add(new BasicAuthenticationHandler(new CustomPrincipalProvider()));
 

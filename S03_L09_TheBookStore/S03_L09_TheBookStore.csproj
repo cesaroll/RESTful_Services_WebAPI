@@ -15,7 +15,7 @@
     <AssemblyName>S03_L09_TheBookStore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -147,6 +147,7 @@
     <Compile Include="DataTransferObjects\AuthorDto.cs" />
     <Compile Include="DataTransferObjects\BookAuthorsDto.cs" />
     <Compile Include="DataTransferObjects\BookDto.cs" />
+    <Compile Include="DataTransferObjects\EnforceHttpsAttribute.cs" />
     <Compile Include="DataTransferObjects\ReviewDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
