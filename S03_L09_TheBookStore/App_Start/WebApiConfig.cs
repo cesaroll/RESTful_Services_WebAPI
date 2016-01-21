@@ -28,6 +28,8 @@ namespace S03_L09_TheBookStore
 
             config.Filters.Add(new System.Web.Http.AuthorizeAttribute());
 
+            config.Formatters.Add(new BooksCsvFormatter());
+
         }
     }
 }
