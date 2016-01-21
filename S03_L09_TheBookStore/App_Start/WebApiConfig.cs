@@ -24,6 +24,8 @@ namespace S03_L09_TheBookStore
 
             config.Filters.Add(new EnforceHttpsAttribute());
 
+            config.MessageHandlers.Add(new RateLimitHandler());
+
             config.MessageHandlers.Add(new BasicAuthenticationHandler(new CustomPrincipalProvider()));
 
             config.Filters.Add(new System.Web.Http.AuthorizeAttribute());
