@@ -7,19 +7,19 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7FD91C8F-C3C2-44B2-BE29-EA08CB3ED8A6}</ProjectGuid>
+    <ProjectGuid>{ECDFEDEC-2781-4AE6-82C4-D7D1730586B3}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>S03_L09_TheBookStore</RootNamespace>
-    <AssemblyName>S03_L09_TheBookStore</AssemblyName>
+    <RootNamespace>S05_L20_TheBookStore</RootNamespace>
+    <AssemblyName>S05_L20_TheBookStore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressSSLPort>44301</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
-    <ApplicationInsightsResourceId>/subscriptions/98e8a7cd-0525-40f1-a041-ca649d5929ef/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/S03_L09_TheBookStore</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/98e8a7cd-0525-40f1-a041-ca649d5929ef/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/S05_L20_TheBookStore</ApplicationInsightsResourceId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -158,6 +158,7 @@
     <Compile Include="Infrastructure\CustomPrincipalProvider.cs" />
     <Compile Include="Infrastructure\Extensions.cs" />
     <Compile Include="Infrastructure\RateLimitHandler.cs" />
+    <Compile Include="Infrastructure\ServiceResolver.cs" />
     <Compile Include="Models\Author.cs" />
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Credentials.cs" />
@@ -197,9 +198,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>4024</DevelopmentServerPort>
+          <DevelopmentServerPort>57575</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3975/</IISUrl>
+          <IISUrl>http://localhost:57575/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
