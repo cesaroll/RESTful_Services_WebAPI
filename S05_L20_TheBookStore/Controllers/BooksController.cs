@@ -22,6 +22,7 @@ namespace S03_L09_TheBookStore.Controllers
             this.unit = unit;
         }
 
+        [Queryable]
         public IHttpActionResult Get()
         {
             var books = unit.Books.All;
@@ -32,6 +33,7 @@ namespace S03_L09_TheBookStore.Controllers
 
         }
 
+        [Queryable]
         public IHttpActionResult Get(string query)
         {
             var results = unit.Books.Search(query);
