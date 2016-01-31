@@ -13,7 +13,7 @@ using System.Web.Http.Description;
 using System.Xml.Linq;
 using Newtonsoft.Json;
 
-namespace S07_L26_TheBookStore.Areas.HelpPage
+namespace TheBookStore.Areas.HelpPage
 {
     /// <summary>
     /// This class will generate the samples for the help page.

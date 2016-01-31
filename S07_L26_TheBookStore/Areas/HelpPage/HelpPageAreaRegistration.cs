@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace S07_L26_TheBookStore.Areas.HelpPage
+namespace TheBookStore.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

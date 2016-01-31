@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using S07_L26_TheBookStore.Areas.HelpPage.ModelDescriptions;
+using TheBookStore.Areas.HelpPage.ModelDescriptions;
 
-namespace S07_L26_TheBookStore.Areas.HelpPage.Models
+namespace TheBookStore.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.
