@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientPrototype", "ClientPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBookStore.Client", "TheBookStore.Client\TheBookStore.Client.csproj", "{9DAFBBF7-9B26-46F3-BEAC-B65525835DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S07_L26_TheBookStore", "S07_L26_TheBookStore\S07_L26_TheBookStore.csproj", "{4ABCFBA6-FBB7-40E3-AE45-9C6EF3AF048E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheBookStore", "S07_L26_TheBookStore\TheBookStore.csproj", "{4ABCFBA6-FBB7-40E3-AE45-9C6EF3AF048E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSelfHost", "SampleSelfHost\SampleSelfHost.csproj", "{9B1A58C5-D146-46D3-A533-577324284B7B}"
 EndProject

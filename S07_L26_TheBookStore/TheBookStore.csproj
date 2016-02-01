@@ -210,6 +210,7 @@
     <Content Include="scripts\ai.0.21.5-build00175.min.js" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TestClientReferences.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TestClientDialogs.cshtml" />
+    <None Include="Properties\PublishProfiles\cesbookstore.pubxml" />
     <None Include="scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="scripts\jquery-1.6.2.js" />
     <Content Include="scripts\jquery-1.6.2.min.js" />
